@@ -1,2 +1,6 @@
-# course-flutter
-Curso de Udemy | Legacy - Flutter: Tu guía completa para IOS y Android
+# README
+
+> [!NOTE]
+> Curso de Udemy
+> - Legacy - Flutter: Tu guía completa para IOS y Android
+> - Fernando Herrera (github: Klerith)
