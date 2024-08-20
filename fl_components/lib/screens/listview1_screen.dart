@@ -14,23 +14,11 @@ class ListView1Screen extends StatelessWidget {
       ),
       body: ListView(
         children: [
-          
-          // Se hace un mapa para hacer un barrido
-          ...options.map(
-            (lenguajes) => ListTile( 
-              title: Text(lenguajes),
+          ...options.map((languages) => ListTile(
+              title: Text(languages),
               trailing: const Icon(Icons.arrow_forward_ios_outlined),
             ),
           ).toList()
-
-          // Estilo de lista
-          // ListTile(
-          //   // leading: Icon(Icons.account_box_outlined),
-          //   title: Text('Hola Mundo'),
-          // ),
-
-        
-
         ],
       )
     );
